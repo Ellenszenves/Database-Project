@@ -76,7 +76,4 @@ def test():
     headers = list(panelek_df.columns.values)
     print(panelek_df['Panel hőfok 11 [°C] ValueY'])
   
-#print(load_adag_data())
-#print(load_panel_data())
-test()
-#db_connect(load_adag_data(), load_panel_data())
+db_connect(load_adag_data(), load_panel_data())
